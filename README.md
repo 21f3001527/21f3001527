@@ -67,47 +67,96 @@
 
 ## 🚀 Projects
 
-### 🔍 CrimeCast: Crime Category Prediction
-> **ML Classification** · Python · Scikit-learn · Pandas · NumPy · Matplotlib · Seaborn
+<details open>
+<summary><h3>🔍 CrimeCast: Crime Category Prediction</h3></summary>
 
-- Trained 4 classifiers (Random Forest, SVC, AdaBoost, Decision Tree) on LAPD crime data; Random Forest was the best performer
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square)
+
+- Trained **4 classifiers** (Random Forest, SVC, AdaBoost, Decision Tree) on LAPD crime data — Random Forest was the best performer
 - Engineered time-based, geographic, and demographic features; applied **GridSearchCV** hyperparameter tuning
 - Conducted **feature importance analysis** to identify key predictors across location, timing, and incident type
 
+</details>
+
 ---
 
-### 🔧 MLOps Pipeline: Explainability, Fairness & Drift Monitoring
-> **MLOps / AI Governance** · MLflow · SHAP · GitHub Actions · Scikit-learn · Evidently
+<details open>
+<summary><h3>🔧 MLOps Pipeline: Explainability, Fairness & Drift Monitoring</h3></summary>
+
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+![SHAP](https://img.shields.io/badge/SHAP-22C55E?style=flat-square)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Evidently](https://img.shields.io/badge/Evidently-F59E0B?style=flat-square)
 
 - Built an end-to-end ML observability pipeline with **SHAP** explainability across demographic groups and **data drift detection** (KS, PSI tests) triggering automated retraining alerts
 - Automated the full pipeline (train → evaluate → explain → monitor) via **GitHub Actions CI**, cutting manual intervention to zero
 - Integrated **MLflow** for experiment tracking, model registry, and reproducibility
 
----
-
-### 🌐 Student Management System – REST API
-> **Backend / Deployment** · FastAPI · Docker · Linux · Git
-
-- Built a full **CRUD REST API** using **FastAPI** with request validation and proper HTTP status codes
-- **Dockerized** the application and deployed to a cloud platform — publicly accessible
-- Developed entirely in a **Linux** environment (WSL) with shell scripting and process management
+</details>
 
 ---
 
-### 📊 Business Data Management – 99 Market Mall Case Study
-> **Data Analytics / Business Intelligence** · Python · SQL · Excel · Pandas · Matplotlib · Tableau
+<details open>
+<summary><h3>🌐 Student Management System – REST API</h3></summary>
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT_Auth-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![SQLModel](https://img.shields.io/badge/SQLModel-009688?style=flat-square)
+![Uvicorn](https://img.shields.io/badge/Uvicorn-499848?style=flat-square)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
+
+A production-deployed REST API for managing students, courses, enrollments, and grades with JWT-based authentication.
+
+- Built full **CRUD routes** for Students, Courses, Enrollments, and Grades using **FastAPI** with auto-generated Swagger docs at `/docs`
+- Implemented **JWT authentication** (python-jose + passlib/bcrypt) — all routes are protected and require a valid token
+- Used **SQLModel** (Pydantic + SQLAlchemy) for ORM, with duplicate checks for emails, course codes, and enrollments; marks validated between 0–100
+- Deployed live on **Railway** with a `Procfile` + `Uvicorn` ASGI server
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)](https://web-production-617bc.up.railway.app/docs)
+
+</details>
+
+---
+
+<details>
+<summary><h3>📊 Business Data Management – 99 Market Mall Case Study</h3></summary>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
 
 - Analyzed sales and inventory data for a retail mall (~₹2,00,000/month revenue) to identify operational gaps
 - Identified top product categories contributing **~70% of total sales** via Pareto analysis; surfaced seasonal trends (November peak, January low)
 - Delivered **6 actionable recommendations** projected to reduce capital blockage by **20–25%**
 
+</details>
+
 ---
 
-### 🧠 Quiz Master V1 & V2
-> **Full-Stack Web App** · Flask · Vue.js · Redis · Celery · SQLite · Bootstrap
+<details>
+<summary><h3>🧠 Quiz Master V1 & V2 – Full Stack Web App</h3></summary>
+
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-42b883?style=flat-square&logo=vue.js&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-D82C20?style=flat-square&logo=redis&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
 
 - Built a multi-role quiz platform (V1) with admin and user roles, quiz creation, scoring, and result analytics
 - Extended to V2 with **REST API**, **Vue.js** frontend, **Celery** background jobs, and interactive performance dashboards
+
+</details>
 
 ---
 
