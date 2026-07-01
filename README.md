@@ -1,85 +1,46 @@
 <div align="center">
 
-# 👋 Hi, I'm Rajeev Kumar (`21f3001527`)
+# 👋 Hi, I'm Rajeev Kumar
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6366F1&center=true&vCenter=true&width=650&lines=AI%2FML+Engineer+in+the+making;LLM+Fine-tuning+%7C+MLOps+%7C+GenAI;Building+production-grade+ML+systems" alt="Typing SVG" />
 
+🎓 Final-year **BS Data Science & Applications** — **IIT Madras**  
+🤖 Building production ML and AI systems — LLM fine-tuning, MLOps pipelines, REST APIs, GenAI applications  
+🔍 Actively seeking **AI / ML Engineer** roles where I can ship real systems, not just experiments
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rajeev245)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/21f3001527)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajeev90767@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=21f3001527&color=6366F1&style=for-the-badge)](https://github.com/21f3001527)
+
 </div>
-
-🎓 Final-year **BS Data Science & Applications** student at **IIT Madras**
-🤖 Building production ML and AI systems — LLM fine-tuning, MLOps pipelines, REST APIs, and GenAI applications
-🔍 Actively seeking **AI/ML Engineer** roles where I can ship real systems, not just experiments
-
----
-
-## 🚀 Featured Projects
-
-### 🤖 Sentiment Classification with Gemma-3 + LoRA Fine-tuning
-**Stack:** PyTorch · HuggingFace Transformers · Gemma-3 · LoRA · PEFT · BitsAndBytes
-
-- Fine-tuned **Gemma-3 (2B)** for binary sentiment classification using **LoRA (PEFT)** with **4-bit quantization**, cutting GPU memory by ~60% vs full fine-tuning
-- Achieved **91%+ accuracy**, outperforming frozen baseline by 6+ points
-- Built a parameter-efficient pipeline enabling LLM adaptation on a single T4 GPU with <1% trainable weights
-
----
-
-### 🔧 MLOps Pipeline: Explainability, Fairness & Drift Monitoring
-**Stack:** MLflow · SHAP · GitHub Actions · Scikit-learn · Evidently · Python
-
-- Built an end-to-end ML observability pipeline with **SHAP** explainability across demographic groups and **data drift detection** (KS, PSI tests)
-- Automated the full pipeline (train → evaluate → explain → monitor) via **GitHub Actions CI**, cutting manual intervention to zero
-- Integrated **MLflow** for experiment tracking, model registry, and reproducibility
-
----
-
-### 🌐 Student Management System – REST API
-**Stack:** FastAPI · Docker · Linux · Git · GitHub
-
-- Built a full **CRUD REST API** using **FastAPI** with proper request validation and HTTP status codes
-- **Dockerized** the app and deployed to a cloud platform — publicly accessible
-- Developed entirely in a **Linux** environment (WSL), using shell scripting and process management
-
-🔗 [github.com/21f3001527/Student-Management-System](https://github.com/21f3001527/Student-Management-System)
-
----
-
-### 🔍 CrimeCast: Crime Category Prediction
-**Stack:** Python · Scikit-learn · Pandas · NumPy · Matplotlib · Seaborn
-
-- Trained 4 classifiers (Random Forest, SVC, AdaBoost, Decision Tree) on LAPD crime data; RF was best performer
-- Engineered time-based, geographic, and demographic features; used GridSearchCV for tuning
-- Conducted feature importance analysis to identify key predictors
-
----
-
-### 🧠 Quiz Master V1 & V2
-**Stack:** Flask · Vue.js · Redis · Celery · SQLite · Bootstrap
-
-- Built a multi-role quiz platform (V1) then extended it (V2) with REST API, Vue.js frontend, and Celery background jobs
-- Added performance dashboards and scheduled report generation
 
 ---
 
 ## 🧠 Tech Stack
 
-### AI / GenAI
+### 🤖 AI / GenAI
 ![LLMs](https://img.shields.io/badge/LLMs-black?style=for-the-badge)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
 ![RAG](https://img.shields.io/badge/RAG-6366F1?style=for-the-badge)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-8B5CF6?style=for-the-badge)
+![Vector Search](https://img.shields.io/badge/Vector_Search-EC4899?style=for-the-badge)
 
 ### 🧬 Deep Learning & NLP
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![LoRA/PEFT](https://img.shields.io/badge/LoRA%2FPEFT-F97316?style=for-the-badge)
 ![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![NLP](https://img.shields.io/badge/NLP-3B82F6?style=for-the-badge)
+![BitsAndBytes](https://img.shields.io/badge/4--bit_Quantization-10B981?style=for-the-badge)
 
 ### 📊 Machine Learning
 ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
 
 ### ⚙️ MLOps & Deployment
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
@@ -87,6 +48,7 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![SHAP](https://img.shields.io/badge/SHAP-22C55E?style=for-the-badge)
+![Evidently](https://img.shields.io/badge/Evidently-F59E0B?style=for-the-badge)
 
 ### 🛠️ Tools & Platforms
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -95,6 +57,66 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-black?style=for-the-badge&logo=flask)
+![Vue.js](https://img.shields.io/badge/Vue.js-42b883?style=for-the-badge&logo=vue.js&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-D82C20?style=for-the-badge&logo=redis&logoColor=white)
+
+---
+
+## 🚀 Projects
+
+### 🤖 Sentiment Classification with Gemma-3 + LoRA Fine-tuning
+> **NLP / GenAI** · PyTorch · HuggingFace · Gemma-3 · LoRA · PEFT · BitsAndBytes
+
+- Fine-tuned **Gemma-3 (2B parameters)** for binary sentiment classification using **LoRA (PEFT)** with **4-bit quantization**, cutting GPU memory by ~60% vs full fine-tuning
+- Achieved **91%+ accuracy**, outperforming frozen baseline by 6+ points
+- Built a parameter-efficient pipeline enabling LLM adaptation on a single **T4 GPU** with <1% trainable weights
+
+---
+
+### 🔧 MLOps Pipeline: Explainability, Fairness & Drift Monitoring
+> **MLOps / AI Governance** · MLflow · SHAP · GitHub Actions · Scikit-learn · Evidently
+
+- Built an end-to-end ML observability pipeline with **SHAP** explainability across demographic groups and **data drift detection** (KS, PSI tests) triggering automated retraining alerts
+- Automated the full pipeline (train → evaluate → explain → monitor) via **GitHub Actions CI**, cutting manual intervention to zero
+- Integrated **MLflow** for experiment tracking, model registry, and reproducibility
+
+---
+
+### 🌐 Student Management System – REST API
+> **Backend / Deployment** · FastAPI · Docker · Linux · Git
+
+- Built a full **CRUD REST API** using **FastAPI** with request validation and proper HTTP status codes
+- **Dockerized** the application and deployed to a cloud platform — publicly accessible
+- Developed entirely in a **Linux** environment (WSL) with shell scripting and process management
+
+🔗 [github.com/21f3001527/Student-Management-System](https://github.com/21f3001527/Student-Management-System)
+
+---
+
+### 🔍 CrimeCast: Crime Category Prediction
+> **ML Classification** · Python · Scikit-learn · Pandas · NumPy · Matplotlib · Seaborn
+
+- Trained 4 classifiers (Random Forest, SVC, AdaBoost, Decision Tree) on LAPD crime data; Random Forest was the best performer
+- Engineered time-based, geographic, and demographic features; applied **GridSearchCV** tuning
+- Conducted **feature importance analysis** to identify key predictors across location, timing, and incident type
+
+---
+
+### 📊 Business Data Management – 99 Market Mall Case Study
+> **Data Analytics / Business Intelligence** · Python · SQL · Excel · Pandas · Matplotlib · Tableau
+
+- Analyzed sales and inventory data for a retail mall (~₹2,00,000/month revenue) to identify operational gaps and growth opportunities
+- Identified top product categories contributing **~70% of total sales** via Pareto analysis; surfaced November as peak and January as lowest sales month
+- Delivered **6 actionable recommendations** projected to reduce capital blockage by **20–25%**
+
+---
+
+### 🧠 Quiz Master V1 & V2
+> **Full-Stack Web App** · Flask · Vue.js · Redis · Celery · SQLite · Bootstrap
+
+- Built a multi-role quiz platform (V1) with admin and user roles, quiz creation, scoring, and analytics
+- Extended to V2 with **REST API**, **Vue.js** frontend, **Celery** background jobs, and interactive performance dashboards
 
 ---
 
@@ -115,28 +137,27 @@
 
 ## 🎓 Education & Certifications
 
-**BS Data Science & Applications** — IIT Madras *(2021–2026, CGPA: 8.1)*
+**🎓 BS Data Science & Applications** — IIT Madras *(2021–2026, CGPA: 8.1)*
 
 **Workshops — IIT Madras**
-- Mathematical Foundations for ML
-- Machine Learning Techniques
-- Understanding Google Cloud Platform
-- NumPy and Pandas Workshop
+| Workshop | Focus |
+|---|---|
+| Mathematical Foundations for ML | Linear algebra, probability, optimization |
+| Machine Learning Techniques | Supervised & unsupervised learning |
+| Deep Learning & NLP (Prof. Mitesh Khapra / AI4Bharat) | Neural networks, transformers, NLP |
+| Understanding Google Cloud Platform | GCP, BigQuery, Vertex AI |
+| NumPy and Pandas Workshop | Data manipulation from scratch |
 
 **Certifications**
 - 📜 Mathematics - Basics to Advanced for Data Science and GenAI — Udemy
+- 📜 Python for Data Science & AI — Coursera
 - 📜 Intro to Git and GitHub — Coursera
 - 📜 SQL (Basic, Intermediate) — HackerRank
-- 📜 Python for Data Science & AI — Coursera
 
 ---
 
-## 📫 Let's Connect
+<div align="center">
 
-- ✉️ Email: [rajeev90767@gmail.com](mailto:rajeev90767@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/rajeev245](https://www.linkedin.com/in/rajeev245)
-- 🐙 GitHub: [github.com/21f3001527](https://github.com/21f3001527)
+*"Ship real systems. Learn by building."*
 
----
-
-![Profile views](https://komarev.com/ghpvc/?username=21f3001527&color=blue)
+</div>
