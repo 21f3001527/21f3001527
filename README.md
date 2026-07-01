@@ -1,83 +1,94 @@
 # 👋 Hi, I'm Rajeev Kumar (`21f3001527`)
 
-🎓 Student at **IIT Madras**, pursuing a B.Sc. in Data Science and Applications  
-🧠 Passionate about building interactive applications, solving real-world problems using machine learning, and exploring data-driven decision making.
+🎓 Final-year **BS Data Science & Applications** student at **IIT Madras**  
+🤖 Building production ML and AI systems — LLM fine-tuning, MLOps pipelines, REST APIs, and GenAI applications  
+🔍 Actively seeking **AI/ML Engineer** roles where I can ship real systems, not just experiments
+
+---
+
+## 🧠 What I Work With
+
+### AI / GenAI
+![LLMs](https://img.shields.io/badge/LLMs-black?style=for-the-badge)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
+![RAG](https://img.shields.io/badge/RAG-6366F1?style=for-the-badge)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-8B5CF6?style=for-the-badge)
+
+### Deep Learning & NLP
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![LoRA/PEFT](https://img.shields.io/badge/LoRA%2FPEFT-F97316?style=for-the-badge)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![NLP](https://img.shields.io/badge/NLP-3B82F6?style=for-the-badge)
+
+### Machine Learning
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge)
+
+### MLOps & Deployment
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![SHAP](https://img.shields.io/badge/SHAP-22C55E?style=for-the-badge)
+
+### Tools & Platforms
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
 
 ---
 
 ## 🚀 Projects
 
-### 🧠 Quiz Master – Modern Application Development I
-- **Tech Stack:** Flask, Jinja2, HTML/CSS, Bootstrap, SQLite
-- **Description:**  
-  Developed a multi-role **Quiz Master application** where users can attempt quizzes on various topics and track their performance over time.
-- **Features:**  
-  - Role-based system: Admin and Users  
-  - Quiz creation, attempt, and scoring  
-  - Result analytics per user
-- **Outcome:** Delivered a structured web-based quiz platform that tracks learning progress.
+### 🤖 Sentiment Classification with Gemma-3 + LoRA Fine-tuning
+**Stack:** PyTorch · HuggingFace Transformers · Gemma-3 · LoRA · PEFT · BitsAndBytes
+
+- Fine-tuned **Gemma-3 (2B)** for binary sentiment classification using **LoRA (PEFT)** with **4-bit quantization**, cutting GPU memory by ~60% vs full fine-tuning
+- Achieved **91%+ accuracy**, outperforming frozen baseline by 6+ points
+- Built a parameter-efficient pipeline enabling LLM adaptation on a single T4 GPU with <1% trainable weights
 
 ---
 
-### 🌐 Quiz Master V2 + Dashboard – Modern Application Development II
-- **Tech Stack:** Flask REST API, JavaScript, Vue.js, Bootstrap, SQLite, Redis, Celery
-- **Description:**  
-  Extended the Quiz Master project by separating frontend and backend, and introducing business data analytics.  
-  Implemented **interactive dashboards**, **RESTful APIs**, and **scheduled tasks** for user reports.
-- **Features:**  
-  - API-first architecture with Vue.js frontend  
-  - Background jobs with Celery  
-  - Performance tracking dashboard for users and admins
-- **Outcome:** Created a scalable and modular full-stack application with enhanced UX and insights.
+### 🔧 MLOps Pipeline: Explainability, Fairness & Drift Monitoring
+**Stack:** MLflow · SHAP · GitHub Actions · Scikit-learn · Evidently · Python
+
+- Built an end-to-end ML observability pipeline with **SHAP** explainability across demographic groups and **data drift detection** (KS, PSI tests)
+- Automated the full pipeline (train → evaluate → explain → monitor) via **GitHub Actions CI**, cutting manual intervention to zero
+- Integrated **MLflow** for experiment tracking, model registry, and reproducibility
 
 ---
 
-### 🔍 Crime Category Prediction – Machine Learning Project
-- **Tech Stack:** pandas, scikit-learn, NumPy, Matplotlib, Seaborn
-- **Description:**  
-  Built a machine learning pipeline to predict **crime categories** based on historical LAPD data.
-- **Key Components:**  
-  - Feature engineering from temporal and location data  
-  - Classification models: Random Forest, SVM, AdaBoost, Decision Tree  
-  - Model tuning and evaluation via accuracy, confusion matrix, and classification report
-- **Outcome:** Achieved high classification accuracy and developed interpretable insights into crime patterns.
+### 🌐 Student Management System – REST API
+**Stack:** FastAPI · Docker · Linux · Git · GitHub
+
+- Built a full **CRUD REST API** using **FastAPI** with proper request validation and HTTP status codes
+- **Dockerized** the app and deployed to a cloud platform — publicly accessible
+- Developed entirely in a **Linux** environment (WSL), using shell scripting and process management
+
+🔗 [github.com/21f3001527/Student-Management-System](https://github.com/21f3001527/Student-Management-System)
 
 ---
 
-### 🛒 Navigation Optimization – Business Data Management Project
-- **Context:** 99 Market Mall case study
-- **Tech Stack:** SQL, Excel, pandas, Matplotlib, Tableau
-- **Description:**  
-  Analyzed mall navigation data to identify **customer movement challenges**, optimize layout, and improve shopper engagement.
-- **Outcome:** Presented findings through dashboards and proposed layout recommendations to reduce bounce rate and increase foot traffic to key stores.
+### 🔍 CrimeCast: Crime Category Prediction
+**Stack:** Python · Scikit-learn · Pandas · NumPy · Matplotlib · Seaborn
+
+- Trained 4 classifiers (Random Forest, SVC, AdaBoost, Decision Tree) on LAPD crime data; RF was best performer
+- Engineered time-based, geographic, and demographic features; used GridSearchCV for tuning
+- Conducted feature importance analysis to identify key predictors
 
 ---
 
-## 🎓 Workshops & Certifications
+### 🧠 Quiz Master V1 & V2
+**Stack:** Flask · Vue.js · Redis · Celery · SQLite · Bootstrap
 
-| Workshop Title                             | Key Takeaways |
-|-------------------------------------------|----------------|
-| 📘 **Mathematical Fundamentals of ML**     | Linear algebra, probability, optimization foundations |
-| ☁️ **Understanding Google Cloud Platform** | ML deployment using GCP, BigQuery, and Vertex AI |
-| 🔢 **Machine Learning using NumPy**        | Implemented ML models from scratch with NumPy |
-| 🤖 **MLP Workshop**                        | Hands-on training on MLPs and neural networks |
-
----
-
-## 🧰 Tech Stack & Tools
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-black?style=for-the-badge&logo=flask)
-![Vue.js](https://img.shields.io/badge/Vue.js-42b883?style=for-the-badge&logo=vue.js&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
-![scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-D82C20?style=for-the-badge&logo=redis&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+- Built a multi-role quiz platform (V1) then extended it (V2) with REST API, Vue.js frontend, and Celery background jobs
+- Added performance dashboards and scheduled report generation
 
 ---
 
@@ -88,21 +99,24 @@
 
 ---
 
-## 🧭 Learning Goals
+## 🎓 Education & Certifications
 
-- 📌 Deep Learning with PyTorch & TensorFlow  
-- 🧪 API Testing with Postman & Swagger  
-- 📦 Docker and DevOps basics  
-- 🌍 Building scalable APIs with FastAPI
+- 🎓 **BS Data Science & Applications** — IIT Madras *(2021–2026, CGPA: 8.1)*
+- 📘 Deep Learning & NLP — Prof. Mitesh Khapra / AI4Bharat, IIT Madras
+- 📘 Mathematical Foundations for ML — IIT Madras
+- 📘 Machine Learning Techniques — IIT Madras
+- ☁️ Understanding Google Cloud Platform — IIT Madras
+- 📜 SQL (Basic, Intermediate) — HackerRank
+- 📜 Python for Data Science & AI — Coursera
 
 ---
 
 ## 📫 Let's Connect
 
-- ✉️ Email: [21f3001527@ds.study.iitm.ac.in](mailto:21f3001527@ds.study.iitm.ac.in)
-- 💼 LinkedIn: www.linkedin.com/in/rajeev245
+- ✉️ Email: [rajeev90767@gmail.com](mailto:rajeev90767@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/rajeev245](https://www.linkedin.com/in/rajeev245)
+- 🐙 GitHub: [github.com/21f3001527](https://github.com/21f3001527)
 
 ---
 
 ![Profile views](https://komarev.com/ghpvc/?username=21f3001527&color=blue)
-
