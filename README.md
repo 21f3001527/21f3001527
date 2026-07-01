@@ -115,10 +115,10 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=21f3001527&show_icons=true&theme=radical&hide_border=true" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=21f3001527&layout=compact&theme=radical&hide_border=true" height="165"/>
+<img src="https://github-stats-extended.vercel.app/api?username=21f3001527&show_icons=true&theme=radical&hide_border=true" height="165"/>
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=21f3001527&layout=compact&theme=radical&hide_border=true" height="165"/>
 
-<img src="https://streak-stats.demolab.com?user=21f3001527&theme=radical&hide_border=true" height="165"/>
+<img src="https://streak-stats.demolab.com/?user=21f3001527&theme=radical&hide_border=true" height="165"/>
 
 </div>
 
