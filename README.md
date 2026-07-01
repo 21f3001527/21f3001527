@@ -2,11 +2,11 @@
 
 # 👋 Hi, I'm Rajeev Kumar
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6366F1&center=true&vCenter=true&width=650&lines=AI%2FML+Engineer+in+the+making;LLM+Fine-tuning+%7C+MLOps+%7C+GenAI;Building+production-grade+ML+systems" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6366F1&center=true&vCenter=true&width=650&lines=AI+%2F+ML+%2F+Data+Engineer;LLM+Fine-tuning+%7C+MLOps+%7C+GenAI;Building+production-grade+ML+systems" alt="Typing SVG" />
 
-🎓 Final-year **BS Data Science & Applications** — **IIT Madras**  
-🤖 Building production ML and AI systems — LLM fine-tuning, MLOps pipelines, REST APIs, GenAI applications  
-🔍 Actively seeking **AI / ML Engineer** roles where I can ship real systems, not just experiments
+🎓 **BS Data Science & Applications** — **IIT Madras** *(Graduated May 2026)*
+🤖 Building production ML and AI systems — MLOps pipelines, REST APIs, GenAI applications
+🔍 Open to **Data Science / Data Engineer / ML Engineer / AI Engineer** roles
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rajeev245)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/21f3001527)
@@ -26,17 +26,14 @@
 ![RAG](https://img.shields.io/badge/RAG-6366F1?style=for-the-badge)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-8B5CF6?style=for-the-badge)
 ![Vector Search](https://img.shields.io/badge/Vector_Search-EC4899?style=for-the-badge)
-
-### 🧬 Deep Learning & NLP
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![LoRA/PEFT](https://img.shields.io/badge/LoRA%2FPEFT-F97316?style=for-the-badge)
 ![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![NLP](https://img.shields.io/badge/NLP-3B82F6?style=for-the-badge)
-![BitsAndBytes](https://img.shields.io/badge/4--bit_Quantization-10B981?style=for-the-badge)
 
-### 📊 Machine Learning
+### 📊 Machine Learning & Data Science
 ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge)
+![LightGBM](https://img.shields.io/badge/LightGBM-02A6A6?style=for-the-badge)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
@@ -50,27 +47,32 @@
 ![SHAP](https://img.shields.io/badge/SHAP-22C55E?style=for-the-badge)
 ![Evidently](https://img.shields.io/badge/Evidently-F59E0B?style=for-the-badge)
 
+### 🗄️ Data Engineering
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-D82C20?style=for-the-badge&logo=redis&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge)
+
 ### 🛠️ Tools & Platforms
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-black?style=for-the-badge&logo=flask)
 ![Vue.js](https://img.shields.io/badge/Vue.js-42b883?style=for-the-badge&logo=vue.js&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-D82C20?style=for-the-badge&logo=redis&logoColor=white)
 
 ---
 
 ## 🚀 Projects
 
-### 🤖 Sentiment Classification with Gemma-3 + LoRA Fine-tuning
-> **NLP / GenAI** · PyTorch · HuggingFace · Gemma-3 · LoRA · PEFT · BitsAndBytes
+### 🔍 CrimeCast: Crime Category Prediction
+> **ML Classification** · Python · Scikit-learn · Pandas · NumPy · Matplotlib · Seaborn
 
-- Fine-tuned **Gemma-3 (2B parameters)** for binary sentiment classification using **LoRA (PEFT)** with **4-bit quantization**, cutting GPU memory by ~60% vs full fine-tuning
-- Achieved **91%+ accuracy**, outperforming frozen baseline by 6+ points
-- Built a parameter-efficient pipeline enabling LLM adaptation on a single **T4 GPU** with <1% trainable weights
+- Trained 4 classifiers (Random Forest, SVC, AdaBoost, Decision Tree) on LAPD crime data; Random Forest was the best performer
+- Engineered time-based, geographic, and demographic features; applied **GridSearchCV** hyperparameter tuning
+- Conducted **feature importance analysis** to identify key predictors across location, timing, and incident type
 
 ---
 
@@ -90,24 +92,13 @@
 - **Dockerized** the application and deployed to a cloud platform — publicly accessible
 - Developed entirely in a **Linux** environment (WSL) with shell scripting and process management
 
-🔗 [github.com/21f3001527/Student-Management-System](https://github.com/21f3001527/Student-Management-System)
-
----
-
-### 🔍 CrimeCast: Crime Category Prediction
-> **ML Classification** · Python · Scikit-learn · Pandas · NumPy · Matplotlib · Seaborn
-
-- Trained 4 classifiers (Random Forest, SVC, AdaBoost, Decision Tree) on LAPD crime data; Random Forest was the best performer
-- Engineered time-based, geographic, and demographic features; applied **GridSearchCV** tuning
-- Conducted **feature importance analysis** to identify key predictors across location, timing, and incident type
-
 ---
 
 ### 📊 Business Data Management – 99 Market Mall Case Study
 > **Data Analytics / Business Intelligence** · Python · SQL · Excel · Pandas · Matplotlib · Tableau
 
-- Analyzed sales and inventory data for a retail mall (~₹2,00,000/month revenue) to identify operational gaps and growth opportunities
-- Identified top product categories contributing **~70% of total sales** via Pareto analysis; surfaced November as peak and January as lowest sales month
+- Analyzed sales and inventory data for a retail mall (~₹2,00,000/month revenue) to identify operational gaps
+- Identified top product categories contributing **~70% of total sales** via Pareto analysis; surfaced seasonal trends (November peak, January low)
 - Delivered **6 actionable recommendations** projected to reduce capital blockage by **20–25%**
 
 ---
@@ -115,7 +106,7 @@
 ### 🧠 Quiz Master V1 & V2
 > **Full-Stack Web App** · Flask · Vue.js · Redis · Celery · SQLite · Bootstrap
 
-- Built a multi-role quiz platform (V1) with admin and user roles, quiz creation, scoring, and analytics
+- Built a multi-role quiz platform (V1) with admin and user roles, quiz creation, scoring, and result analytics
 - Extended to V2 with **REST API**, **Vue.js** frontend, **Celery** background jobs, and interactive performance dashboards
 
 ---
@@ -124,12 +115,10 @@
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=21f3001527&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=21f3001527&layout=compact&theme=radical)
+<img src="https://github-readme-stats.vercel.app/api?username=21f3001527&show_icons=true&theme=radical&hide_border=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=21f3001527&layout=compact&theme=radical&hide_border=true" height="165"/>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=21f3001527&theme=radical)
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=21f3001527&theme=radical&no-frame=true&row=1&column=6)
+<img src="https://streak-stats.demolab.com?user=21f3001527&theme=radical&hide_border=true" height="165"/>
 
 </div>
 
@@ -155,6 +144,16 @@
 - 📜 SQL (Basic, Intermediate) — HackerRank
 
 ---
+
+## 📫 Let's Connect
+
+| | |
+|---|---|
+| 📧 **Email** | [rajeev90767@gmail.com](mailto:rajeev90767@gmail.com) |
+| 💼 **LinkedIn** | [linkedin.com/in/rajeev245](https://linkedin.com/in/rajeev245) |
+| 🐙 **GitHub** | [github.com/21f3001527](https://github.com/21f3001527) |
+| 📍 **Location** | Patna, Bihar, India |
+| 📞 **Phone** | +91 7903766709 |
 
 <div align="center">
 
